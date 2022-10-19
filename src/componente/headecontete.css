@@ -1,0 +1,147 @@
+.headecontete {
+  display: flex;
+  height: 680px;
+  width: 100%;
+  border: 4px white;
+}
+
+.wrapper1 {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+  width: 60%;
+  height: 42.2rem;
+}
+
+.itenstext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Chivo";
+
+  height: 50px;
+  font-size: 28px;
+  color: #3ca63a;
+  border: 2px solid red;
+}
+strong {
+  color: #3ca63a;
+}
+
+.sinta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid red;
+  font-size: 28px;
+  flex-direction: column;
+  height: 100px;
+}
+.sinta h3 {
+  height: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 24px;
+}
+.textfinal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid olivedrab;
+  flex-direction: column;
+  height: 85px;
+}
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 5rem;
+  width: 100%;
+}
+.compre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 56px;
+  background-color: #3ca63a;
+  border: none;
+  overflow: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  gap: 1rem;
+}
+.Saiba {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 56px;
+  background-color: #2e332e;
+  border: none;
+  overflow: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  gap: 1rem;
+}
+.redesociais {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  gap: 30px;
+  width: 100%;
+  border: 2px solid pink;
+}
+
+.itensfonos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid sienna;
+
+  width: 200px;
+  height: 240px;
+  margin-top: 50px;
+}
+.itensfonos img {
+  height: 200px;
+}
+
+.wrapper2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  justify-content: center;
+  border: 2px solid orangered;
+  width: 40%;
+  height: 42.2rem;
+}
+
+.itensimglaft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 25rem;
+  width: 65px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 50px;
+  border: 2px solid burlywood;
+}
+
+.itensimglaft img {
+  height: 50px;
+}
