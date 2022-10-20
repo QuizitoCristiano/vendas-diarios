@@ -7,7 +7,7 @@ import Fone3 from "../imagens/fone3.png";
 import Fone4 from "../imagens/fone4.png";
 import Fonetop1 from "../imagens/fonetop1.png";
 
-export const Headecontete = () => {
+export const HeadContent = () => {
   return (
     <>
       <div className="headecontete">
@@ -149,19 +149,17 @@ export const Headecontete = () => {
         </div>
         <div className="wrapper2">
           <div className="wrapper-filho1">
-
-       
-          <div className="itensfonos">
-            <img src={Fone1} alt="" />
-            <div className="flot"></div>
-          </div>
-          <div className="itensimglaft">
-            <img src={Fone2} alt="" />
-            <img src={Fone4} alt="" />
-            <img src={Fone4} alt="" />
-            <img src={Fone3} alt="" />
-            <img src={Fonetop1} alt="" />
-          </div>
+            <div className="itensfonos">
+              <img src={Fone1} alt="" />
+              <div className="flot"></div>
+            </div>
+            <div className="itensimglaft">
+              <img src={Fone2} alt="" />
+              <img src={Fone4} alt="" />
+              <img src={Fone4} alt="" />
+              <img src={Fone3} alt="" />
+              <img src={Fonetop1} alt="" />
+            </div>
           </div>
           <div className="bolinhas">
             <div className="code1"></div>
