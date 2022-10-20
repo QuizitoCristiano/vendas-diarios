@@ -148,8 +148,12 @@ export const Headecontete = () => {
           </div>
         </div>
         <div className="wrapper2">
+          <div className="wrapper-filho1">
+
+       
           <div className="itensfonos">
             <img src={Fone1} alt="" />
+            <div className="flot"></div>
           </div>
           <div className="itensimglaft">
             <img src={Fone2} alt="" />
@@ -157,6 +161,12 @@ export const Headecontete = () => {
             <img src={Fone4} alt="" />
             <img src={Fone3} alt="" />
             <img src={Fonetop1} alt="" />
+          </div>
+          </div>
+          <div className="bolinhas">
+            <div className="code1"></div>
+            <div className="code2"></div>
+            <div className="code3"></div>
           </div>
         </div>
       </div>
