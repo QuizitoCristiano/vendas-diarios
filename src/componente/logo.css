@@ -54,8 +54,6 @@
   padding-right: 10px;
   height: 50px;
   width: 30%;
-
-
 }
 
 @media screen and (min-width: 400px) and (min-width: 372px) {
@@ -89,4 +87,38 @@
     display: flex;
     width: 90%;
   }
+}
+
+.menu-celular {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.itens-menu-celular {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.itens-menu-celular a {
+  margin: 1rem 0;
+  text-decoration: none;
+  color: white;
+}
+
+.icone-fechar {
+  position: absolute;
+  width: 100px;
+  top: 1rem;
+  right: 1rem;
+  color: white;
 }
