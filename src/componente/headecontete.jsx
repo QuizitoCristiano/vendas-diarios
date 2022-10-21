@@ -7,6 +7,10 @@ import Fone3 from "../imagens/fone3.png";
 import Fone4 from "../imagens/fone4.png";
 import Fonetop1 from "../imagens/fonetop1.png";
 
+import Grop1 from "../imagens/grop1.png";
+import Grop2 from "../imagens/grop2.png";
+import Grop3 from "../imagens/grop3.png";
+
 export const HeadContent = () => {
   return (
     <>
