@@ -100,42 +100,14 @@ button:hover {
 
 .mybotton {
   display: flex;
+  justify-content: space-between;
   top: 2rem;
   position: relative;
   text-align: center;
   height: 50px;
-  width: 115px;
+  width: 100%;
   align-items: center;
   justify-content: center;
-}
-
-.botao::after,
-.botao::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  border-radius: 6px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.botao::before {
-  border-left: 2px solid #4285f4;
-  border-right: 2px solid red;
-  transform: scaleY(0);
-}
-.botao::after {
-  border-top: 2px solid #fbbc05;
-  border-bottom: 2px solid #01ff16;
-  transform: scaleX(0);
-}
-.botao:hover:before {
-  transform: scaleY(1);
-}
-.botao:hover:after {
-  transform: scaleX(1);
 }
 
 .digite {

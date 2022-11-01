@@ -234,7 +234,7 @@ strong {
   }
   .botao {
     display: flex;
-    border: 3px solid rgb(64, 0, 255);
+
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -317,4 +317,41 @@ strong {
 
   background: #3ca63a;
   border-radius: 16px;
+}
+.redesociais1:hover {
+  transition: 00.5s;
+  height: 50px;
+  width: 80px;
+  border-radius: 50%;
+  border-left: 2px solid #4285f4;
+  border-right: 2px solid red;
+}
+
+.redesociais1::after,
+.redesociais1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 50;
+  left: 50;
+  right: 50;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.redesociais1::before {
+  border-left: 2px solid #4285f4;
+  border-right: 2px solid red;
+  transform: scaleY(0);
+}
+.redesociais1::after {
+  border-top: 2px solid #fbbc05;
+  border-bottom: 2px solid #34a853;
+  transform: scaleX(0);
+}
+.redesociais1:hover:before {
+  transform: scaleY(1);
+}
+.redesociais1:hover:after {
+  transform: scaleX(1);
 }

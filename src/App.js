@@ -7,6 +7,7 @@ import { Logo } from "./componente/logo";
 
 import "./styles/styles.css";
 import { Login } from "./pages/login";
+import { Cadastro } from "./pages/cadastros";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
 
       <div className="contariner">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Cadastro />} />
         </Routes>
       </div>
     </BrowserRouter>

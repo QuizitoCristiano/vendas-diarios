@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from "react";
-import "../styles/styles.css";
+import "../styles/cadastro.css";
 
 import aos from "aos";
 import "aos/dist/aos.css";
 import { Form } from "react-router-dom";
 
-export const Login = () => {
+export const Cadastro = () => {
   useEffect(() => {
     aos.init({ duração: 1500 });
   }, []);
@@ -16,7 +16,7 @@ export const Login = () => {
         <div className="div-lubi">
           <div className="wrappr-login">
             <div className="digite">
-              <p>Para garantir a sua segurança faca login</p>
+              <p>Para garantir Cadastro sacou!!!!</p>
             </div>
 
             <div className="input-wrappre">
@@ -26,7 +26,7 @@ export const Login = () => {
                 required="required"
                 autoComplete="false"
               />
-              <span>Usernama</span>
+              <span>E-mail</span>
               <i></i>
             </div>
 
@@ -37,7 +37,10 @@ export const Login = () => {
             </div>
             <div className="mybotton">
               <div className="botao">
-                <button>Entrar</button>
+                <button>Login</button>
+              </div>
+              <div className="botao">
+                <button>Cadastro</button>
               </div>
             </div>
           </div>

@@ -102,6 +102,7 @@ export const HeadContent = () => {
 
           <div className="redesociais">
             <svg
+              className="redesociais1"
               width="40"
               height="40"
               viewBox="0 0 40 40"
@@ -114,6 +115,7 @@ export const HeadContent = () => {
               />
             </svg>
             <svg
+              className="redesociais1"
               width="40"
               height="40"
               viewBox="0 0 40 40"
@@ -126,6 +128,7 @@ export const HeadContent = () => {
               />
             </svg>
             <svg
+              className="redesociais1"
               width="21"
               height="22"
               viewBox="0 0 21 22"
@@ -138,6 +141,7 @@ export const HeadContent = () => {
               />
             </svg>
             <svg
+              className="redesociais1"
               width="40"
               height="40"
               viewBox="0 0 40 40"
