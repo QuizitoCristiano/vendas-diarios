@@ -98,46 +98,6 @@ button:hover {
   background-color: #95eb0a;
 }
 
-.mybotton {
-  display: flex;
-  top: 2rem;
-  position: relative;
-  text-align: center;
-  height: 50px;
-  width: 115px;
-  align-items: center;
-  justify-content: center;
-}
-
-.botao::after,
-.botao::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  border-radius: 6px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.botao::before {
-  border-left: 2px solid #4285f4;
-  border-right: 2px solid red;
-  transform: scaleY(0);
-}
-.botao::after {
-  border-top: 2px solid #fbbc05;
-  border-bottom: 2px solid #01ff16;
-  transform: scaleX(0);
-}
-.botao:hover:before {
-  transform: scaleY(1);
-}
-.botao:hover:after {
-  transform: scaleX(1);
-}
-
 .digite {
   display: flex;
   margin-left: 8rem;
@@ -222,4 +182,54 @@ button:hover {
 .input-wrappre input:valid ~ i,
 .input-wrappre input:focus ~ i {
   height: 45px;
+}
+
+.mybotton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.loginlogar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.loginlogar:hover {
+  transition: 0.9s;
+  transform: translateX(20px);
+}
+.loginlogar::after,
+.loginlogar::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.loginlogar::before {
+  transform: scaleY(0);
+  border-right: 2px solid #09f315;
+  border-left: 2px solid #f51d09;
+}
+.loginlogar::after {
+  transform: scaleX(0);
+  border-top: 2px solid #fbbc05;
+  border-bottom: 2px solid #4285f4;
+}
+.loginlogar:hover:before {
+  transform: scaleX(1);
+}
+.loginlogar:hover::after {
+  transform: scaleX(1);
 }

@@ -100,14 +100,14 @@ button:hover {
 
 .mybotton {
   display: flex;
-  justify-content: space-between;
+
+  justify-content: space-around;
   top: 2rem;
   position: relative;
   text-align: center;
-  height: 50px;
+  height: 60px;
   width: 100%;
   align-items: center;
-  justify-content: center;
 }
 
 .digite {
@@ -194,4 +194,92 @@ button:hover {
 .input-wrappre input:valid ~ i,
 .input-wrappre input:focus ~ i {
   height: 45px;
+}
+
+.cadastro {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  width: 25%;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  line-height: 24px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.cadastro {
+  transform-style: preserve-3d;
+  background-color: #376693;
+}
+.cadastro::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -100%;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background: #ffb801;
+  border-radius: 10px;
+  content: " Mudou!";
+  transform-origin: left bottom;
+  box-sizing: border-box;
+  transform: rotateX(90deg);
+}
+.cadastro:hover {
+  transform-origin: center bottom;
+  transition: 00.5s;
+  transform: rotateX(-90deg) translateY(100%);
+}
+
+.logiAnimado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 10px;
+
+  position: relative;
+}
+.logiAnimado:hover {
+  transform: translateX(20px);
+  transition: 0.7s;
+}
+
+.logiAnimado::after,
+.logiAnimado::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.logiAnimado::before {
+  transform: scaleY(0);
+  border-right: 2px solid #09f315;
+  border-left: 2px solid #f51d09;
+}
+.logiAnimado::after {
+  transform: scaleX(0);
+  border-top: 2px solid #fbbc05;
+  border-bottom: 2px solid #4285f4;
+}
+.logiAnimado:hover:before {
+  transform: scaleX(1);
+}
+.logiAnimado:hover::after {
+  transform: scaleX(1);
 }

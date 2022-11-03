@@ -36,7 +36,7 @@ export const Login = () => {
               <i></i>
             </div>
             <div className="mybotton">
-              <div className="botao">
+              <div className="loginlogar">
                 <button>Entrar</button>
               </div>
             </div>

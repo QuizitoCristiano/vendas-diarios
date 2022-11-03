@@ -15,7 +15,9 @@ const Links = () => (
     <a className="link3" href="#">
       Comprar
     </a>
-    <a href="#">Contato</a>
+    <a className="link4" href="#">
+      Contato
+    </a>
   </>
 );
 

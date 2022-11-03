@@ -21,6 +21,40 @@
   width: 58%;
   color: #ffffff;
 }
+
+.link3:hover {
+  transform: translateX(-10px);
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 20px;
+  color: #00a8fb;
+  border-bottom: 2px solid rgba(19, 208, 16, 0.95);
+}
+.link1:hover {
+  transform: translateX(5px);
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 20px;
+  color: #00a8fb;
+  border-bottom: 2px solid rgba(19, 208, 16, 0.95);
+}
+.link2:hover {
+  cursor: pointer;
+  transform: translateX(-10px);
+  transition: 0.5s;
+  font-size: 20px;
+  color: #00a8fb;
+  border-bottom: 2px solid rgba(19, 208, 16, 0.95);
+}
+.link4:hover {
+  transform: translateX(10px);
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 20px;
+  color: #00a8fb;
+  border-bottom: 2px solid rgba(19, 208, 16, 0.95);
+}
+
 .logo-links a {
   display: flex;
   align-items: center;

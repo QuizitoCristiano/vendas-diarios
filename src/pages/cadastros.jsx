@@ -36,12 +36,11 @@ export const Cadastro = () => {
               <i></i>
             </div>
             <div className="mybotton">
-              <div className="botao">
+              <div className="logiAnimado">
                 <button>Login</button>
               </div>
-              <div className="botao">
-                <button>Cadastro</button>
-              </div>
+
+              <button className="cadastro">Cadastro</button>
             </div>
           </div>
         </div>
