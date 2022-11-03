@@ -77,36 +77,7 @@ strong {
   height: 5rem;
   width: 100%;
 }
-.compre {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 250px;
-  height: 56px;
-  background-color: #3ca63a;
-  border: none;
-  overflow: none;
-  border-radius: 10px;
-  font-family: sans-serif;
-  font-size: 15px;
-  color: #ffffff;
-  gap: 1rem;
-}
-.Saiba {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 250px;
-  height: 56px;
-  background-color: #2e332e;
-  border: none;
-  overflow: none;
-  border-radius: 10px;
-  font-family: sans-serif;
-  font-size: 15px;
-  color: #ffffff;
-  gap: 1rem;
-}
+
 .redesociais {
   display: flex;
   align-items: center;
@@ -354,4 +325,96 @@ strong {
 }
 .redesociais1:hover:after {
   transform: scaleX(1);
+}
+
+.Saiba {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  height: 56px;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  position: relative;
+  cursor: pointer;
+  gap: 1rem;
+  transition: all 400ms ease;
+}
+
+.Saiba {
+  transform-style: preserve-3d;
+  background-color: #2e332e;
+}
+.Saiba::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -100%;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background-color: #376693;
+  border-radius: 10px;
+  content: "Vamos-lá?";
+  transform-origin: left bottom;
+  box-sizing: border-box;
+  transform: rotateX(90deg);
+}
+.Saiba:hover {
+  transform-origin: center bottom;
+  transition: 00.5s;
+  transform: rotateX(-90deg) translateY(100%);
+}
+
+.compre {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  height: 56px;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  position: relative;
+  cursor: pointer;
+  gap: 1rem;
+  transition: all 400ms ease;
+  transform-style: preserve-3d;
+  background-color: #3ca63a;
+}
+
+.compre::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -100%;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background: #ffb801;
+  border-radius: 10px;
+  content: "Clicar!!";
+  transform-origin: left bottom;
+  box-sizing: border-box;
+  transform: rotateX(90deg);
+}
+.compre:hover {
+  transform-origin: center bottom;
+  transition: 00.5s;
+  transform: rotateX(-90deg) translateY(100%);
 }

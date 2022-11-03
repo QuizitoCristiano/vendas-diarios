@@ -16,9 +16,9 @@ function App() {
 
       <div className="contariner">
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/" element={<Cadastro />} />
+          <Route path="/cadastro" element={<Cadastro />} />
         </Routes>
       </div>
     </BrowserRouter>

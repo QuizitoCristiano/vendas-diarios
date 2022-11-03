@@ -230,7 +230,7 @@ button:hover {
   position: absolute;
   background: #ffb801;
   border-radius: 10px;
-  content: " Mudou!";
+  content: "Vamoslá?";
   transform-origin: left bottom;
   box-sizing: border-box;
   transform: rotateX(90deg);
