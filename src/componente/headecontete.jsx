@@ -29,7 +29,7 @@ export const HeadContent = () => {
           </div>
           <div className="textfinal">
             <p>
-              <strong>O Headphone H300</strong>apresenta o sistema de driver de
+              <strong>O Headphone H37770</strong>apresenta o sistema de driver de
               câmara dupla que reduz a distorção e oferece som mais claro bem
               como o conforto exclusivo da
               <strong> Listen Universe</strong>, proporcionado pelos fones de
